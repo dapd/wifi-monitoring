@@ -1,8 +1,8 @@
 # Starting to monitor Wifi network
 
-### Introduction
+## Using [aircrack-ng] tools suite
 
-In this example, we will use the [aircrack-ng] tools suite and the OS is the Ubuntu.
+OS: Ubuntu
 
 ### Installation
 
@@ -28,7 +28,16 @@ sudo apt-get –y install aircrack-ng
 
 To build your basic skills and get you familiar with the concepts, I suggest you follow the [Simple WEP Crack].
 
+## Using [TShark]
+
+### Installation
+
+```sh
+sudo apt-get install tshark
+```
+
 [//]: # (References)
 
    [aircrack-ng]: <https://aircrack-ng.org/>
    [Simple WEP Crack]: <https://aircrack-ng.org/doku.php?id=simple_wep_crack>
+   [TShark]: <https://www.wireshark.org/docs/man-pages/tshark.html>
